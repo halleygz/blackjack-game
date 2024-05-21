@@ -1,0 +1,66 @@
+/* General reset for a consistent base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #232526, #414345);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #FFD700;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.button-container {
+    margin: 20px 0;
+}
+
+button {
+    background-color: #FFD700;
+    border: none;
+    color: #000;
+    padding: 15px 25px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #FFC107;
+}
+
+#player-el {
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: #FFD700;
+}
